@@ -345,7 +345,7 @@ address {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-.cell{
+.cell {
   margin-bottom: 94px;
 }
 
@@ -361,6 +361,8 @@ address {
   letter-spacing: 0.06em;
   text-align: left;
   color: #212121;
+  padding-left: 24px;
+  padding-top: 20px;
 }
 
 .services {
@@ -371,4 +373,6 @@ address {
   letter-spacing: 0.03em;
   text-align: left;
   color: #757575;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
