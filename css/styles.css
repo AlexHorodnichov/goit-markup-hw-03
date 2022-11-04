@@ -1,20 +1,20 @@
 :root {
   /*Основний колір*/
-  --c-dark:#212121;
-  --c-blue:#2196f3;
-  --c-black:#000000;
-  --c-gray:#757575;
-  --c-white:#ffffff;
+  --c-dark: #212121;
+  --c-blue: #2196f3;
+  --c-black: #000000;
+  --c-gray: #757575;
+  --c-white: #ffffff;
   /*Фон*/
   --bg-white: #ffffff;
-  --bg-c-dark-grey:#2f303a;
-  --bg-c-blue-white:#188ce8;
-  --bg-c-light-gray:#f5f4fa;
+  --bg-c-dark-grey: #2f303a;
+  --bg-c-blue-white: #188ce8;
+  --bg-c-light-gray: #f5f4fa;
   --bg-c-white: #ffffff;
-  --bg-c-blue:#2196f3;
+  --bg-c-blue: #2196f3;
   /*Колір рамок*/
   --brd-c-gray: #eeeeee;
-  --brd-c-light-gray:#ececec;
+  --brd-c-light-gray: #ececec;
 }
 
 h1,
@@ -144,7 +144,7 @@ li {
 
 .contacts:hover,
 .contacts:focus {
-  color:var(--c-blue);
+  color: var(--c-blue);
 }
 
 /*Main content*/
@@ -155,16 +155,20 @@ li {
   flex-direction: column;
   gap: 30px;
   align-items: center;
-  background-color:var(--bg-c-dark-grey);
+  background-color: var(--bg-c-dark-grey);
   color: var(--bg-white);
   padding: 200px 0;
 }
 
 .blocktext {
+  width: 696px;
+  font-weight: 900;
   font-size: 44px;
-  display: inline-block;
-  max-width: 696px;
+  line-height: 1.3636;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--c-white);
 }
 
 .order-btn {
@@ -285,11 +289,8 @@ li {
 }
 
 .footer {
+  padding: 60px 0;
   background-color: var(--bg-c-dark-grey);
-}
-
-.footer-wrapper {
-  padding-top: 60px;
 }
 
 .footer-logo {
@@ -298,7 +299,8 @@ li {
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
-  padding-top: 60px;
+  margin-bottom: 20px;
+  display: block;
 }
 
 .footer-item {
@@ -317,8 +319,6 @@ address {
   display: flex;
   flex-direction: column;
   font-style: normal;
-  padding-bottom: 60px;
-  padding-top: 20px;
 }
 
 .footer-contacts {
@@ -327,7 +327,7 @@ address {
   vertical-align: Top;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  padding-top: 9px;
+  margin-top: 9px;
 }
 
 .footer-contacts:hover,
@@ -337,7 +337,7 @@ address {
 
 /*Portfolio*/
 .main {
-  background-color: var(--bg-c-white) ;
+  background-color: var(--bg-c-white);
 }
 
 .filter-list {
